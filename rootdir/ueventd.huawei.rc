@@ -162,9 +162,5 @@
 /dev/pn544                0660  nfc        nfc
 /dev/key_test             0664  system     system
 
-# DVB devices
-/dev/dvb/adapter0/demux*  0444  media      media
-/dev/dvb/adapter0/dvr*    0664  media      media
-/dev/dvb/adapter0/video*  0664  media      media
 
 /sys/devices/platform/mtk6252   usb_sel  0664  root  system
